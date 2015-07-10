@@ -1,0 +1,49 @@
+.header{
+	height: 450px;
+	background: url("/images/sofa-relax.jpg") center center;
+	background-size: cover;
+	
+	.nav{
+
+		text-align: center;
+		padding-top: 30px;
+
+		a{
+			display: inline-block;
+			margin-left: 15px;
+			font-weight: 700;
+			font-size: 13px;
+			color: rgba(0,0,0,0.7);
+			text-transform: uppercase;
+
+			&:hover{
+				color: rgba(0,0,0,1);
+				text-decoration: none;
+			}
+		}
+	}
+
+	h1{
+			font-size: 72px;
+			font-weight: 700;
+			color: white;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			text-align: center;
+			margin-bottom: 20px;
+			padding-top:	100px;
+			color: #97CDC5; 
+		}
+
+	.slogan{
+		text-align: center;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		color: white;
+		line-height: 1;
+		color: #D3AD5C;
+	}
+
+}
+		
