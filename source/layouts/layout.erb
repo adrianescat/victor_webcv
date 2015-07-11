@@ -9,9 +9,9 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Víctor Escat" %></title>
 
-    <%= stylesheet_link_tag "bootstrap.min", "header", "footer", "main", "about"%>
+    <%= stylesheet_link_tag "bootstrap.min", "header", "footer", "main", "about", "flickerplate","studies"%>
     <%= javascript_include_tag  "all" %>
-    <%= javascript_include_tag  "bootstrap.min","animatescroll.min","scroll" %>
+    <%= javascript_include_tag  "bootstrap.min","animatescroll.min","scroll", "fadeInScroll.jQuery", "modernizr-custom-v2.7.1.min","hammer-v2.0.3.min", "flickerplate.min", "flickers"%>
   </head>
 
   <body class="<%= page_classes %>">

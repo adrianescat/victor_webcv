@@ -36,6 +36,11 @@ $(document).ready(function(){
 		});
 	//-------------------------------------------------------------------//
 
-
+	//FadeInScroll.js----------------------------------------------------//
+		$("#js-studies-section").fadeInScroll();
+		$("#js-xp-section").fadeInScroll();
+		$("#js-like-section").fadeInScroll();
+		$("#js-contact-section").fadeInScroll();
+	//-------------------------------------------------------------------//
 
 });
