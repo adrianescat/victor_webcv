@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  //padding-top: 20px;
 }
 
 #wrap {
@@ -10,4 +11,7 @@ html, body {
   overflow:auto;
   padding-bottom:150px; /* this needs to be bigger than footer height*/
   width: 90%;
+}
+.header-about, .header-studies, .header-xp, .header-like, .header-contact{
+	padding-top: 80px;
 }
