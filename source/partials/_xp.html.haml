@@ -1,3 +1,17 @@
 .section{id: "js-xp-section", style:"hidden"}
 	%h3.header-xp
 		Experiencias
+	#timeline
+		%ul{id: "dates"}
+			%li
+				= link_to "date1", "#"
+			%li
+				= link_to "date2", "#"
+		%ul{id: "issues"}
+			%li{id: "date1"}
+				%p Hola
+			%li{id: "date2"}
+				%p chau
+		= link_to "+", "#", :id => "next"
+		= link_to "-", "#", :id => "prev"
+
