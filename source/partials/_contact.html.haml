@@ -1,3 +1,16 @@
 .section{id: "js-contact-section", style:"hidden"}
 	%h3.header-contact
 		Contacto
+	%form{ :action => "https://formkeep.com/f/cf1433d80f38", :method => "POST"}
+		%input{:type => "hidden", :name => "utf8", :value => "✓"}
+		%input{:type => "hidden", :name => "redirect", :value => "#"}
+		%br
+			Nombre:
+		%input{:type => "text", :name => 'name', :placeholder =>"Nombre"}
+		%br
+			E-Mail:
+		%input{:type => "email", :name => 'email', :placeholder =>"E-mail"}
+		%br
+			Consulta:
+		%input{:type => "text", :name => 'consulta', :placeholder =>"Tu consulta"}
+		%button{:type => "submit"} Enviar

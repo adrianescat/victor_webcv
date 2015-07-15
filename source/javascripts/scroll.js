@@ -11,9 +11,6 @@ $(document).ready(function(){
 		$("#js-xp-link").on("click",function(){
 			$("#js-xp-section").animatescroll();
 		});
-		$("#js-like-link").on("click",function(){
-			$("#js-like-section").animatescroll();
-		});
 		$("#js-contact-link").on("click",function(){
 			$("#js-contact-section").animatescroll();
 		});
@@ -28,9 +25,6 @@ $(document).ready(function(){
 		$("#js-xp-footer-link").on("click",function(){
 			$("#js-xp-section").animatescroll();
 		});
-		$("#js-like-footer-link").on("click",function(){
-			$("#js-like-section").animatescroll();
-		});
 		$("#js-contact-footer-link").on("click",function(){
 			$("#js-contact-section").animatescroll();
 		});
@@ -39,7 +33,6 @@ $(document).ready(function(){
 	//FadeInScroll.js----------------------------------------------------//
 		$("#js-studies-section").fadeInScroll();
 		$("#js-xp-section").fadeInScroll();
-		$("#js-like-section").fadeInScroll();
 		$("#js-contact-section").fadeInScroll();
 	//-------------------------------------------------------------------//
 
