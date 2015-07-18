@@ -1,1 +1,0 @@
-!function(n){n.fn.fadeInScroll=function(i){function o(){vWindowScrollTop=n(window).scrollTop(),n(t).each(function(){vWindowScrollTop+parseInt(c.minDistance)>=n(this).offset().top&&n(this).animate({opacity:1})})}var t=n(this),c=n.extend({minDistance:75*n(window).height()/100},i);n(t).each(function(){n(this).css("opacity","0")}),o(),n(window).scroll(function(){o()})}}(jQuery);

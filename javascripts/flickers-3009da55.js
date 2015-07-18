@@ -1,1 +1,0 @@
-$(document).ready(function(){$(".flicker-studies").flickerplate({arrows:!0,auto_flick_delay:20,flick_animation:"jquery-fade",flick_position:1,theme:"dark",block_text:!1})});
