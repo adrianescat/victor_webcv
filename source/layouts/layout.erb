@@ -13,9 +13,9 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55a6f3450f143446" async="async"></script>
     <%= yield %>
   <%= javascript_include_tag  "all" %>
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55a6f3450f143446" async="async"></script>
   </body>
 </html>
