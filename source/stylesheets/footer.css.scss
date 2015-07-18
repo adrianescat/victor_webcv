@@ -1,0 +1,39 @@
+.footer{
+	background: url("/images/sofa.jpg") center center;
+	background-size: cover;
+	bottom: 0px;
+
+	.lockup{
+		padding: 50px 30px;
+
+		.content-wrap{
+			float: left;
+
+			a{
+				font-weight: 700;
+				font-size: 13px;
+				text-transform: uppercase;
+				color: #97CDC5;
+				display: inline-block;
+				margin-right: 20px;
+				&:hover{
+					color: #81b2ab;
+					text-decoration: none;
+				}
+			}
+
+			.copyright{
+				margin: 0;
+				text-transform: uppercase;
+				font-size: 12px;
+				color: #D3AD5C;
+
+				.linkedin{
+					color: rgb(255, 223, 0) !important;
+				}
+			}
+		}
+	}
+
+
+}

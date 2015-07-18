@@ -1,0 +1,11 @@
+/* line 1, /home/adrian/middlemanapps/victor_page/source/stylesheets/studies.css.scss */
+.flickerplate .arrow-navigation:before {
+  color: black !important; }
+
+/* line 4, /home/adrian/middlemanapps/victor_page/source/stylesheets/studies.css.scss */
+.flickerplate {
+  background-color: white !important; }
+
+/* line 7, /home/adrian/middlemanapps/victor_page/source/stylesheets/studies.css.scss */
+.flickerplate ul.flicks > li .flick-sub-text {
+  font-size: 2rem; }

@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Víctor Escat" %></title>
+
+    <%= stylesheet_link_tag "bootstrap.min", "header", "footer", "main", "about", "flickerplate","studies", "xp","contact"%>
+    <%= javascript_include_tag  "all" %>
+    <%= javascript_include_tag  "bootstrap.min","animatescroll.min","scroll", "fadeInScroll.jQuery", "modernizr-custom-v2.7.1.min","hammer-v2.0.3.min", "flickerplate.min", "flickers", "jquery.cntl.min", "timeline"%>
+    <%= stylesheet_link_tag "cntl.min" %>
+  </head>
+
+  <body class="<%= page_classes %>">
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55a6f3450f143446" async="async"></script>
+    <%= yield %>
+  </body>
+</html>
