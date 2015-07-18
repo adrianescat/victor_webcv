@@ -16,3 +16,5 @@ gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 gem "jquery-middleman"
 
 gem 'sass'
+
+gem 'middleman-gh-pages'
