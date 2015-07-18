@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".cntl").cntl({revealbefore:600,anim_class:"cntl-animate",onreveal:null})});
