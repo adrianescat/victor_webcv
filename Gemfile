@@ -18,3 +18,5 @@ gem "jquery-middleman"
 gem 'sass'
 
 gem 'middleman-gh-pages'
+
+gem "middleman-sprockets", :github => "middleman/middleman-sprockets"
